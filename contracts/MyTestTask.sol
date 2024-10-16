@@ -48,7 +48,6 @@ contract TestTask {
         int24 pATick = TickMath.getTickAtSqrtRatio(sqrtPAX96);
         int24 pBTick = TickMath.getTickAtSqrtRatio(sqrtPBX96);
 
-
         token0.safeTransferFrom(msg.sender, address(this), amount0);
         token1.safeTransferFrom(msg.sender, address(this), amount1);
 
